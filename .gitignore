@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data files (very important for ML projects)
+data/raw/*
+data/processed/*
+
+# Keep folder structure but ignore files inside
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Azure ML
+.azureml/
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Model artifacts
+*.pkl
+*.joblib
+models/
+
+# MLflow
+mlruns/
